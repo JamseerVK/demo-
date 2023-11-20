@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JamseerVK_demo__1700476878230-pr-trigger-input-set
+  identifier: Build_JamseerVK_demo__1700476878230prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_JamseerVK_demo__1700476878230
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
